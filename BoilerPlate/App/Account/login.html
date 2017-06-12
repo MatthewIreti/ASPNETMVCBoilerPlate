@@ -1,0 +1,47 @@
+﻿<div class="row" >
+     
+    <div class="panel">
+        <form validation waiting="{{waiting}}" id="form-login">
+            <div class="alert alert-danger" ng-show="errors.length">
+                <ul>
+                    <li ng-repeat="error in errors track by $index">{{error}}</li>
+                </ul>
+            </div>
+            <div class="panel-body">
+                <div class="section">
+                    <label for="username" >
+                        <input type="text" name="username" id="username" class="gui-input" ng-model="userInfo.userName"
+                               placeholder="Username">
+                        <span class="field-icon">
+                            <i class="fa fa-user"></i>
+                        </span>
+                    </label>
+                </div>
+                <!-- /section -->
+                <div class="section">
+                    <label for="password" >
+                        <input type="password" name="password" id="password" class="gui-input" ng-model="userInfo.password"
+                               placeholder="Password">
+                        <span class="field-icon">
+                            <i class="fa fa-lock"></i>
+                        </span>
+                    </label>
+                </div>
+                <!-- /section -->
+                <div class="section">
+                   
+                    <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                </div>
+                <div class="section " style="clear:both">
+                    <a ui-sref="account.forgotpassword" class="text-muted " style="color: #fff">Forgot Password?</a>
+                </div>
+               
+            </div> 
+        </form>
+    </div> 
+</div> 
+<style>
+    .has-error.help-block {
+        color: #a94442;
+    }
+</style> 

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shaman.ValueString</id>
+    <version>1.0.2.31</version>
+    <authors>Andrea Martinelli</authors>
+    <owners>Andrea Martinelli</owners>
+    <projectUrl>http://shaman.io/</projectUrl>
+    <iconUrl>http://shaman.io/images/shaman-nuget-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides an almost drop-in replacement for String, with allocation-free substring/split methods, along with a ToStringCached() extension method that can be used on StringBuilders, ValueStrings and so on.</description>
+    <tags>string gc-free gc optimization allocation struct performance</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

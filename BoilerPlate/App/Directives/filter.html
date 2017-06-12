@@ -1,0 +1,23 @@
+﻿ 
+<form class="filter" ng-show="hideFilter" ng-submit="setupPagination()">
+    <div class="row">
+        <div ng-include="filterTemplate"></div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <a href="#" ng-click="resetFiltering()" class="btn btn-success"><i class="fa fa-close"></i> Reset</a>
+
+            <a href="#" ng-show="hideDownloadButton==true" ng-click="downloadAsExcel()" class="btn btn-warning">
+                <i class="fa fa-download"></i> Download as Excel Sheet
+            </a>
+            <div class="pull-right">
+                <a href="#" ng-click="hideFilter=false" class="btn btn-primary">
+                    <i class="fa fa-filter"></i> Hide Search
+                </a>
+                <button type="submit" class="btn btn-success"><i class="fa fa-search"></i>Search</button>
+
+            </div>
+        </div>
+        </div><!-- /.row -->
+</form> 

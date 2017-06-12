@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shaman.Configuration.Metadata</id>
+    <version>1.0.1.2</version>
+    <authors>Andrea Martinelli</authors>
+    <owners>Andrea Martinelli</owners>
+    <projectUrl>http://shaman.io/</projectUrl>
+    <iconUrl>http://shaman.io/images/shaman-nuget-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Shaman.Configuration.Metadata</description>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="System.Runtime" version="4.1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,58 @@
+﻿
+
+<style>
+    .font-red {
+        color: red;
+    }
+</style>
+<div class="form-group ">
+    <label for="firstName" class="col-sm-3 control-label">First Name<span class="font-red">*</span></label>
+    <div class="col-sm-7">
+        <input id="firstName" name="firstName" ng-model="item.firstName" placeholder="First name" class="form-control"/>
+
+    </div>
+</div>
+
+<div class="form-group ">
+    <label for="middleName" class="col-sm-3 control-label">Middle Name</label>
+    <div class="col-sm-7">
+        <input id="middleName" name="middleName" ng-model="item.middleName" placeholder=" Middle name" class="form-control" />
+    </div>
+</div>
+<div class="form-group ">
+    <label for="lastName" class="col-sm-3 control-label">Last Name<span class="font-red">*</span></label>
+    <div class="col-sm-7">
+        <input id="lastName" name="lastName" ng-model="item.lastName" placeholder="Last Name" class="form-control" />
+
+    </div>
+</div>
+
+<div class="form-group" ng-show="isCreateMode">
+    <label for="middleName" class="col-sm-3 control-label">Email Address<span class="font-red">*</span></label>
+    <div class="col-sm-7">
+        <input id="emailAddress" name="emailAddress" ng-model="item.emailAddress" placeholder="Email Address" class="form-control" />
+    </div>
+</div>
+
+
+
+<div class="form-group ">
+    <label for="phoneNumber" class="col-sm-3 control-label">Phone Number<span class="font-red">*</span></label>
+    <div class="col-sm-7">
+
+        <input id="phoneNumber" name="phoneNumber" ng-model="item.phoneNumber" placeholder="Phone  Number" class="form-control" />
+
+    </div>
+</div>
+
+<div class="form-group ">
+
+    <label for="address" class="col-sm-3 control-label">Address<span class="font-red">*</span></label>
+    <div class="col-sm-7">
+        <textarea id="address" name="address" ng-model="item.address" placeholder="Address" class="form-control"></textarea>
+    </div>
+</div>
+
+
+
+

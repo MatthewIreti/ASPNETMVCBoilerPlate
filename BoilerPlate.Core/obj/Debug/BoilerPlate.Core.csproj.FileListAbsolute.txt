@@ -1,0 +1,7 @@
+c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\BoilerPlate.Core\bin\Debug\BoilerPlate.Core.dll
+c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\BoilerPlate.Core\bin\Debug\BoilerPlate.Core.pdb
+c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\BoilerPlate.Core\bin\Debug\Newtonsoft.Json.dll
+c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\BoilerPlate.Core\bin\Debug\Newtonsoft.Json.xml
+c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\BoilerPlate.Core\obj\Debug\BoilerPlate.Core.csprojResolveAssemblyReference.cache
+c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\BoilerPlate.Core\obj\Debug\BoilerPlate.Core.dll
+c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\BoilerPlate.Core\obj\Debug\BoilerPlate.Core.pdb

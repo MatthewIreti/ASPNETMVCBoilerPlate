@@ -1,0 +1,45 @@
+﻿<style>
+    .form-horizontal .control-label2 {
+        text-align: left;
+    }
+</style>
+
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <span class="panel-title pn">
+                    {{title}}
+                </span>
+                <div class="pull-right">
+                    <a tooltip="back" class="btn btn-primary btn-sm" ng-click="goBack()"><i class="fa fa-reply"></i>  </a>
+
+                </div>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                     
+                    <div class=" col-sm-9 col-md-9 ">
+                        <h2 class="media-heading fs30 mb20">{{item.firstName}} {{item.middleName|availableNA}} {{item.lastName}} </h2>
+                        <p class="fw400">
+                            <span><i class="fa fa-phone"></i></span> {{item.phoneNumber}}
+                        </p>
+                        <p class="fw400">
+                            <span><i class="fa fa-inbox"></i></span> {{item.emailAddress}}
+                        </p>
+                        <p class="fw400">
+                            <span><i class="fa fa-map-marker"></i></span> {{item.address}}
+                        </p>
+                         <p class="fw400">
+                            <span><i class="fa fa-user"></i></span> {{item.roleName}}
+                        </p>
+                         
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+     
+</div>

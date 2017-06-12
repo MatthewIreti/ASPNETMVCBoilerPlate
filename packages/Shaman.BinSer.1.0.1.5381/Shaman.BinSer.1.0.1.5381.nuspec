@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shaman.BinSer</id>
+    <version>1.0.1.5381</version>
+    <title>Shaman.BinSer</title>
+    <authors>Andrea Martinelli</authors>
+    <owners>Andrea Martinelli</owners>
+    <projectUrl>http://shaman.io/</projectUrl>
+    <iconUrl>http://shaman.io/images/shaman-nuget-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a binary serialization mechanism that supports cycles, delegates, events, tasks, string deduplication and custom serializers.</description>
+    <summary />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Shaman.FileSystem" version="1.0.1.1" />
+        <dependency id="Shaman.Reflection" version="1.0.0.13" />
+        <dependency id="Shaman.Configuration.Metadata" version="1.0.1.1" />
+        <dependency id="Shaman.CommonExtensions" version="1.0.1.1" />
+        <dependency id="Shaman.ValueString" version="1.0.2.19" />
+        <dependency id="Shaman.Dom" version="1.0.1.15" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="System.Runtime" version="4.1.0" />
+        <dependency id="System.Runtime.Extensions" version="4.1.0" />
+        <dependency id="System.Threading" version="4.0.11" />
+        <dependency id="System.Threading.Tasks" version="4.0.11" />
+        <dependency id="System.IO" version="4.1.0" />
+        <dependency id="System.IO.FileSystem" version="4.0.1" />
+        <dependency id="System.Globalization" version="4.0.11" />
+        <dependency id="System.Reflection" version="4.1.0" />
+        <dependency id="System.Reflection.Extensions" version="4.0.1" />
+        <dependency id="System.Collections" version="4.0.11" />
+        <dependency id="System.Collections.Concurrent" version="4.0.12" />
+        <dependency id="System.Console" version="4.0.0" />
+        <dependency id="System.Reflection.Emit" version="4.0.1" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.1.0" />
+        <dependency id="System.Reflection.Emit.ILGeneration" version="4.0.1" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.0.1" />
+        <dependency id="Shaman.FileSystem" version="1.0.1.1" />
+        <dependency id="Shaman.Reflection" version="1.0.0.13" />
+        <dependency id="Shaman.Configuration.Metadata" version="1.0.1.1" />
+        <dependency id="Shaman.CommonExtensions" version="1.0.1.1" />
+        <dependency id="Shaman.ValueString" version="1.0.2.19" />
+        <dependency id="Shaman.Dom" version="1.0.1.15" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

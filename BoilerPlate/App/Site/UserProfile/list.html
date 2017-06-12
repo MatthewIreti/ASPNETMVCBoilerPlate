@@ -1,0 +1,124 @@
+﻿<div filter="filter.html"></div>
+ 
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <span class="panel-title">
+            {{title}}
+        </span>
+        <div class="pull-right">
+            <a tooltip="Reload" class="btn btn-primary btn-sm" ng-click="setupPagination()"><span class="glyphicon glyphicon-refresh"></span>  </a>
+            <a tooltip="Create User" class="btn btn-primary btn-sm" ui-sref="site.usermanagement.create">
+                <span class="glyphicon glyphicon-plus"></span>
+            </a>
+            <a tooltip="Search" class="btn btn-primary btn-sm" ng-hide="hideFilter" ng-click="hideFilter=true">
+                <span class="glyphicon glyphicon-search"></span>  
+            </a>
+        </div>
+    </div>
+    <div class="panel-body" waiting="{{waiting}}">
+        <div class="row">
+            <div class="col-md-6">            
+                <div id="example_length">
+                    <label>
+                        Show
+                        <select ng-model="paginationConfig.count" ng-change="pageChanged()">
+                            <option value="10">10</option>
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select> Entries
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <table class="table table-bordered table-responsive table-hover table-striped pn btn-gradient-grey">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Full Name </th>
+                            <th>Email</th>
+                            <th width="13%">Date Created</th>
+                            <th>User Role</th> 
+                            <th>Options</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in items">
+                            <td>{{getIndexSeed($index)}}</td>
+                            <td>{{item.firstName}} {{item.lastName}}</td>
+                            <td>{{item.emailAddress}}</td>
+                            <td>{{item.dateCreated|date:'dd MMM yyyy'}}</td>
+                            <td>{{item.roleName}}</td>
+                            <td>
+                                <a tooltip="Edit" ui-sref="site.usermanagement.edit(item)" class="btn  btn-primary btn-xs">
+                                    <span class="glyphicon glyphicon-pencil"></span>
+                                </a>
+                                <a tooltip="Delete" ng-click="deleteObject(item)" class="btn  btn-danger btn-xs">
+                                    <span class="glyphicon glyphicon-trash"></span>
+                                </a> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="10" ng-hide="items.length">
+                                No records found to show
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-5">
+                {{getPageInfoDescription()}}
+            </div>
+            <div class="col-md-7">
+                <div class="pull-right">
+                    <pagination total-items="paginationConfig.total" ng-change="pageChanged()"
+                                ng-model="paginationConfig.page" items-per-page="paginationConfig.count" max-size="5"
+                                class="pagination" boundary-links="true" rotate="glyphiconlse"></pagination>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script type="text/ng-template" id="filter.html">
+    <div class="col-md-3">
+        <div class="form-group">
+            <label class="control-label">Name</label>
+            <input type="text" ng-model="filter.Name" class="form-control input-sm" />
+        </div>
+    </div>
+    
+    <div class="col-md-3">
+        <div class="form-group">
+            <label class="control-label">Date Created From</label>
+            <div class="input-group" >
+                <input type="text" class="form-control " datepicker-popup="dd/MM/yyyy" ng-model="filter.dateCreatedFrom"
+                       is-open="opened.dateCreatedFrom" datepicker-options="dateOptions"
+                       ng-disabled="true" close-text="Close" />
+                <span class="input-group-btn">
+                    <button type="button" class="btn  btn-deglyphiconult" ng-click="openDate($event,'dateCreatedFrom')">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label class="control-label">Date Created Date To</label>
+            <div class="input-group">
+                <input type="text" class="form-control " datepicker-popup="dd/MM/yyyy" ng-model="filter.dateCreatedTo"
+                       is-open="opened.dateCreated" datepicker-options="dateOptions"
+                       ng-disabled="true" close-text="Close" />
+                <span class="input-group-btn">
+                    <button type="button" class="btn btn-deglyphiconult" ng-click="openDate($event,'dateCreated')">
+                        <i class="glyphicon glyphicon-calendar"></i>
+                    </button>
+                </span>
+            </div>
+        </div>
+    </div>
+</script>
