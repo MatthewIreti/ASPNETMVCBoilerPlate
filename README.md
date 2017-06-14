@@ -4,8 +4,6 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Boiler Plate to Kickstart an asp.net MVC WebApi with DI ###
 
-* Quick summary
-* Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### Setup ###
@@ -16,20 +14,12 @@ This README would normally document whatever steps are necessary to get your app
 
 nuget restore
 ```
-
+to restore nuget packages for dependencies
 * Configuration
 * Dependencies
 * Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
+Go to web.config and change server address to conform with your standalone sql server connection 
+ 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Developed by Idowu Matthew twitter: https://twitter.com/matmape
