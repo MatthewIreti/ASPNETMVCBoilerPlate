@@ -10,7 +10,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Setup ###
 
-* Summary of set up
+* Run <code>nuget restore</code>
 * Configuration
 * Dependencies
 * Database configuration
