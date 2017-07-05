@@ -1,5 +1,13 @@
-# git ignore file
+BoilerPlate/obj*
+BoilerPlate.Service/obj*
+BoilerPlate.Repository/obj* 
+BoilerPlate.Data/obj*
+BoilerPlate.Core/obj*
 
-/BoilerPlate/bin
-/BoilerPlate/obj
-/.gitignore
+ 
+BoilerPlate.Service/bin*
+BoilerPlate.Repository/bin* 
+BoilerPlate.Data/bin*
+BoilerPlate.Core/bin*
+
+BoilerPlate/App/**/*.js* 
