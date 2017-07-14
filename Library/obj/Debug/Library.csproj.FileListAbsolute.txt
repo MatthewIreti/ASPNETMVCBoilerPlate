@@ -30,3 +30,35 @@ c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\Library\bin
 c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
 c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\Library\obj\Debug\Library.dll
 c:\Users\Fehintola\Documents\Visual Studio 2013\Projects\BoilerPlate\Library\obj\Debug\Library.pdb
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Library.dll.config
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Library.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Library.pdb
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Autofac.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\EntityFramework.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\LinqKit.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.Helpers.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.Mvc.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.Razor.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.WebPages.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Autofac.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\EntityFramework.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\LinqKit.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.Helpers.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.Mvc.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.Razor.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.WebPages.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\obj\Debug\Library.dll
+C:\Users\SilverEdgeProjects-O\aspNetProj\boilerplate\Library\obj\Debug\Library.pdb
